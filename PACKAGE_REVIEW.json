@@ -1,0 +1,19 @@
+{
+  "records_in_cleaned_csv": 150482,
+  "pbix_valid_zip_container": true,
+  "pbix_required_parts_present": true,
+  "text_files_rewritten": [
+    "README.md",
+    "mysql/analysis_queries.sql",
+    "mysql/load_data.sql",
+    "mysql/mysql_analysis.py",
+    "mysql/schema.sql",
+    "powerbi/PBIX_Report_Structure.md",
+    "reports/EV_Analysis_Summary_Report.md",
+    "scripts/01_clean_data.py",
+    "scripts/02_sql_analysis.py",
+    "scripts/03_generate_charts.py",
+    "scripts/04_build_report.py"
+  ],
+  "note": "Text/code files were rewritten for clear, ordinary project documentation and portable paths. Binary data and the supplied PBIX were retained."
+}
