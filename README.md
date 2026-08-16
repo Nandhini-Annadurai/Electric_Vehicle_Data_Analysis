@@ -160,10 +160,3 @@ The Power BI dashboard is located at:
 powerbi/EV_DASHBOARD.pbix
 ```
 
-## 🎯 Project Summary
-
-This project gave me the opportunity to work through a complete data-analysis workflow rather than focusing on just one part of the process.
-
-I started with raw EV registration data, cleaned and prepared it in Python, used SQL to answer specific questions, created supporting visualisations, and then brought the results together in Power BI.
-
-The final result is an end-to-end EV data analysis project that can be used to explore registration patterns, manufacturers, models, locations, electric range, and CAFV eligibility.
