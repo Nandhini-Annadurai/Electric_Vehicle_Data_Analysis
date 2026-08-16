@@ -106,66 +106,6 @@ Some of the main results from the cleaned dataset were:
 
 These numbers give a quick picture of how strongly certain manufacturers, models, and locations are represented in the dataset.
 
-## 📁 Project Structure
-
-```text
-EV-Analysis-Project/
-│
-├── README.md
-├── .gitignore
-│
-├── cleaned_data/
-│   ├── EV_Population_Cleaned.csv
-│   └── ...
-│
-├── scripts/
-│   ├── 01_clean_data.py
-│   ├── 02_sql_analysis.py
-│   ├── 03_generate_charts.py
-│   └── 04_build_report.py
-│
-├── mysql/
-│   ├── schema.sql
-│   ├── load_data.sql
-│   ├── analysis_queries.sql
-│   └── mysql_analysis.py
-│
-├── charts/
-│   ├── 01_ev_type_distribution.png
-│   ├── 02_top_10_makes.png
-│   ├── 03_top_10_models.png
-│   ├── 04_top_10_counties.png
-│   ├── 05_registrations_by_year.png
-│   ├── 06_cafv_eligibility.png
-│   ├── 07_avg_range_by_make.png
-│   └── 08_top_utilities.png
-│
-├── powerbi/
-│   ├── EV_DASHBOARD.pbix
-│   └── pbix_report_structure.json
-│
-└── reports/
-    └── EV_Analysis_Summary_Report.md
-```
-
-## 📊 Power BI Dashboard
-
-The Power BI dashboard brings the main parts of the analysis into one place.
-
-It includes:
-
-* Total EV count
-* Average electric range
-* Top manufacturer
-* Top model
-* EV registrations by manufacturer
-* Model-year trends
-* Geographic distribution
-* CAFV eligibility
-* EV type distribution
-* Filters for model year, EV type, and manufacturer
-
-The dashboard can be opened using Power BI Desktop.
 
 ## ⚠️ Limitations
 
