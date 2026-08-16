@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Local databases
+cleaned_data/*.db
+cleaned_data/*.sqlite
+cleaned_data/*.sqlite3
+
+# Power BI temporary files
+*.pbit
+*.pbix.bak
+~$*.pbix
